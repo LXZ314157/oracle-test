@@ -1,0 +1,13 @@
+server:
+  port: 8001
+
+spring:
+  datasource:
+    username: lxz
+    password: lxz
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    url: jdbc:oracle:thin:@localhost:1521:orcl
+
+
+mybatis:
+  mapper-locations: classpath:mapper/*Mapper.xml
