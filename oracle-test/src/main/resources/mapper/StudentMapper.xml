@@ -11,4 +11,8 @@
     select * from student where sid=#{id}
   </select>
 
+  <select id="getStudentList" resultMap="BaseResultMap">
+    select * from student
+  </select>
+
 </mapper>
